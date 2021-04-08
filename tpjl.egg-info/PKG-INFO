@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: tpjl
-Version: 2021.4.3
+Version: 2021.4.4
 Summary: a free & OpenSource Portable version of JSON.
 Home-page: https://github.com/TechGeeks-Dev/PJSONLang
 Author: TechGeeks
@@ -21,7 +21,7 @@ Description: # TPJL (TechGeeks Portable JSON Language)
         ## Usage
         
         ```python3
-        from tpjl import TPJLang
+        from TPJLang import read, write
         data = {
             "0": {
                 "_id": 0,
@@ -38,9 +38,9 @@ Description: # TPJL (TechGeeks Portable JSON Language)
             }
         }
         # To Write
-        TPJLang.write("sample", data) # You'll get a new sample.tpjl file
+        write("sample", data) # You'll get a new sample.tpjl file
         # To Read
-        sample = TPJLang.read("sample")
+        sample = read("sample")
         print(sample) # To Print All
         sample = sample["0"]
         print(sample["_name"]) # To Print the name of the Person with the ID of 0

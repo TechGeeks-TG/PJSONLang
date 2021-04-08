@@ -11,7 +11,7 @@ TPJL (TechGeeks Portable JSON Language) is a free & OpenSource Portable version 
 ## Usage
 
 ```python3
-from tpjl import TPJLang
+from TPJLang import read, write
 data = {
     "0": {
         "_id": 0,
@@ -28,9 +28,9 @@ data = {
     }
 }
 # To Write
-TPJLang.write("sample", data) # You'll get a new sample.tpjl file
+write("sample", data) # You'll get a new sample.tpjl file
 # To Read
-sample = TPJLang.read("sample")
+sample = read("sample")
 print(sample) # To Print All
 sample = sample["0"]
 print(sample["_name"]) # To Print the name of the Person with the ID of 0
