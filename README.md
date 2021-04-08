@@ -1,5 +1,5 @@
 # TPJL (TechGeeks Portable JSON Language)
-![PyPI Release](https://github.com/TechGeeks-Dev/PJSONLang/actions/workflows/Release-Create.yml/badge.svg)
+[![PyPI Release Create](https://github.com/TechGeeks-Dev/PJSONLang/actions/workflows/Release-Create.yaml/badge.svg)](https://github.com/TechGeeks-Dev/PJSONLang/actions/workflows/Release-Create.yaml)
 TPJL (TechGeeks Portable JSON Language) is a free & OpenSource Portable version of JSON.
 <br>You can send a .tpjl file to anyone and he can open it with the read() function and can write with the write() function!
 <br>Please Support us by Contributing by creating a pull request on GitHub.<br>
