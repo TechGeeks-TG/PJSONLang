@@ -33,5 +33,5 @@ TPJLang.write("sample", data) # You'll get a new sample.tpjl file
 sample = TPJLang.read("sample")
 print(sample) # To Print All
 sample = sample["0"]
-print(sample("_name")) # To Print the name of the Person with the ID of 0
+print(sample["_name"]) # To Print the name of the Person with the ID of 0
 ```
